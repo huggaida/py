@@ -8,3 +8,4 @@ which will automatically notice any modified (but not new) files, add them to th
 
 git pull
 git push
+git push --set-upstream https://github.com/huggaida/py.git master
