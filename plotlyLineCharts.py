@@ -1,6 +1,7 @@
 #C:\Python34\Lib\site-packages\;all iofo from hereh  ttps://plot.ly/python/line-charts/ 
-import plotly
+import plotly.plotly as py
 import plotly.graph_objs as go
+import plotly
 
 
 month = [i for i in range(1,12*3+1)]
@@ -56,9 +57,10 @@ uElena = go.Scatter(
     name = 'Elena')
 
 
-data = [uSergei, uOleg, uDima, uNataly, uVeronika, uElena]
+data = [uSergei, uDima, uNataly, uVeronika, uElena]
 
-plotly.offline.plot({
+#plotly.offline.plot({
+py.iplot({
     "data":data, 
     "layout": go.Layout(title="COLOR Wages")
 }, auto_open=True)
