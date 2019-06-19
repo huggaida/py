@@ -12,6 +12,6 @@ pip install tokenizer
 pip install scrapy
 pip install twisted
 pip install beautifulsoup4
-
-
+pip install pywin32
 pause
+
