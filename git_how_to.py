@@ -11,3 +11,19 @@ git push
 <<<<<<< HEAD
 =======
 git push --set-upstream https://github.com/huggaida/py.git master
+
+create a new repository on the command line
+echo "# instaloader" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/huggaida/instaloader.git
+git push -u origin master
+
+push an existing repository from the command line
+git remote add origin https://github.com/huggaida/instaloader.git
+git push -u origin master
+
+Updating a local repository with changes from a GitHub repository
+git pull origin master
+
